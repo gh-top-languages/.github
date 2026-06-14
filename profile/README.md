@@ -8,10 +8,11 @@ GitHub Top Languages is a TypeScript toolchain for generating embeddable SVG lan
 ![Top Languages](https://raw.githubusercontent.com/gh-top-languages/api/main/images/default8.png)
 
 ## Quick Start
-Deploy your own → [api README](https://github.com/gh-top-languages/api#deployment)
+Deploy your own → [api README](https://github.com/gh-top-languages/api#deployment)  
+Customize charts → [demo](https://masonletoile.ca/gh-top-languages-demo)
 
 ## Repositories
 
-- `api` — Deployable Vercel endpoint that fetches GitHub language data and returns an embeddable SVG
-- `lib` — Core chart rendering library powering the API and demo ([npm](https://www.npmjs.com/package/@gh-top-languages/lib))
-- `demo` — Interactive sandbox for previewing and configuring chart output
+- [`api`](https://github.com/gh-top-languages/api) — Deployable Vercel endpoint that fetches GitHub language data and returns an embeddable SVG
+- [`lib`](https://github.com/gh-top-languages/lib) — Core chart rendering library powering the API and demo ([npm](https://www.npmjs.com/package/@gh-top-languages/lib))
+- [`demo`](https://github.com/gh-top-languages/demo) — Interactive sandbox for previewing and configuring chart output
