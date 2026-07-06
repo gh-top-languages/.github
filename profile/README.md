@@ -2,7 +2,8 @@
 
 GitHub Top Languages is a TypeScript toolchain for generating embeddable SVG language charts for GitHub READMEs and websites.
 
-[![License](https://img.shields.io/github/license/gh-top-languages/.github)](https://github.com/gh-top-languages/.github/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
+[![lib](https://img.shields.io/npm/v/@gh-top-languages/lib)](https://www.npmjs.com/package/@gh-top-languages/lib)
 
 ![Top Languages](https://raw.githubusercontent.com/gh-top-languages/api/main/images/default8.png)
 
