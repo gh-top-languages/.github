@@ -18,4 +18,4 @@ Build your charts → [builder](https://masonletoile.ca/gh-top-languages-builder
 | API  | [GitHub](https://github.com/gh-top-languages/api), [Endpoint](https://masonletoile.ca/api/languages) | Deployable Vercel endpoint that fetches GitHub language data and returns an embeddable SVG |
 | Library | [GitHub](https://github.com/gh-top-languages/lib), [npm](https://www.npmjs.com/package/@gh-top-languages/lib) | Core chart rendering library powering the API and builder |
 | Builder | [GitHub](https://github.com/gh-top-languages/builder), [Demo](https://www.masonletoile.ca/gh-top-languages-builder/) | Interactive builder for previewing, configuring, and exporting chart configurations |
-| Org Config | [GitHub](https://github.com/contact-api/.github) | Reusable CI workflows, org config, and documentation |
+| Org Config | [GitHub](https://github.com/gh-top-languages/.github) | Reusable CI workflows, org config, and documentation |
