@@ -10,8 +10,9 @@ jobs:
       contents: write
 
     steps:
-      - uses: gh-top-languages/.github/.github/actions/setup@v1.0.0
+      - uses: gh-top-languages/.github/.github/actions/setup@v1.1.0
         with:
+          node-version: '24'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Publish to npm

@@ -2,6 +2,11 @@ name: Setup
 description: Checkout, setup Node, install dependencies
 
 inputs:
+  node-version:
+    description: Node.js version to install
+    required: false
+    default: '24'
+
   registry-url:
     description: npm registry URL (only needed for publish)
     required: false
@@ -16,7 +21,7 @@ runs:
     - name: Setup Node
       uses: actions/setup-node@v4
       with:
-        node-version: 24
+        node-version: ${{ inputs.node-version }}
         cache: npm
         registry-url: ${{ inputs.registry-url }}
 
