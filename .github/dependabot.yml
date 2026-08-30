@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directories:
+      - "/"
+      - "/.github/actions/setup"
+    schedule:
+      interval: "monthly"
+    cooldown:
+      default-days: 7
+      exclude: ["gh-top-languages/*"]
+    commit-message:
+      prefix: "chore"
+      include: "scope"
