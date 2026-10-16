@@ -12,7 +12,7 @@ jobs:
         node-version: ['22', '24']
 
     steps:
-      - uses: gh-top-languages/.github/.github/actions/setup@v1.3.0
+      - uses: gh-top-languages/.github/.github/actions/setup@e63774c78983e5fd62c85f66a7d1d7773d85f2ce
         with:
           node-version: ${{ matrix.node-version }}
 
